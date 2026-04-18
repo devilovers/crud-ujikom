@@ -1,7 +1,7 @@
 <?php 
 include "koneksi.php";
 
-if (isset($_POST['tambah'])) {
+if(isset($_POST['tambah'])) {
     $nama = $_POST['nama'];
     $kelas = $_POST['kelas'];
     $alamat = $_POST['alamat'];
@@ -92,7 +92,7 @@ Alamat <br>
 <textarea name="alamat"></textarea>
 <br><br>
 
-<button type="submit" name="tambah">Tambah</button>
+<button type="submit" name="tambah">Simpan</button>
 
 </form>
 
@@ -112,7 +112,8 @@ Alamat <br>
 <th>Aksi</th>
 </tr>
 
-<?php
+<?php 
+
 $data = mysqli_query($koneksi, "SELECT * FROM siswa");
 $no = 1;
 
@@ -127,12 +128,12 @@ while($d = mysqli_fetch_array($data)) {
 
 <td>
 <a href="?edit=<?php echo $d['id']; ?>">Edit</a>
-<a href="?hapus=<?php echo $d['id']; ?>" onclick="return confirm('Yakin hapus')">Hapus</a>
+<a href="?hapus=<?php echo $d['id']; ?>" onclick="return confirm('Yakin hapus?')">Hapus</a>
 </td>
 </tr>
 
 <?php } ?>
-</table>
 
+</table>
 </body>
 </html>
