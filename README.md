@@ -4,17 +4,48 @@ Project ini adalah aplikasi CRUD sederhana untuk mengelola data siswa.
 Dibuat menggunakan PHP Native dan MySQL untuk keperluan Uji Kompetensi.
 
 ## ✨ Fitur
-- Tambah data siswa
-- Edit data siswa
-- Hapus data siswa
-- Tampilkan data siswa
+
+* Tambah data siswa
+* Edit data siswa
+* Hapus data siswa
+* Tampilkan data siswa
 
 ## 🛠️ Teknologi
-- PHP
-- MySQL
-- HTML & CSS
+
+* PHP
+* MySQL
+* HTML & CSS
+
+## 📁 Struktur Folder
+
+```
+crud-siswa/
+│
+├── koneksi.php
+├── index.php
+├── siswa.sql
+└── README.md
+```
 
 ## ⚙️ Cara Menjalankan
+
 1. Clone repository ini
-2. Import database `siswa.sql` ke phpMyAdmin
-3. Jalankan di XAMPP / localhost
+2. Pindahkan ke folder `htdocs`
+3. Jalankan XAMPP (Apache & MySQL)
+4. Import database `siswa.sql` ke phpMyAdmin
+5. Buka di browser: `http://localhost/crud-siswa`
+
+## 🧾 Database
+
+```sql
+CREATE DATABASE sekolah;
+
+USE sekolah;
+
+CREATE TABLE siswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    kelas VARCHAR(50),
+    alamat TEXT
+);
+```
