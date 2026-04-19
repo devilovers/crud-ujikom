@@ -19,7 +19,7 @@ Dibuat menggunakan PHP Native dan MySQL untuk keperluan Uji Kompetensi.
 ## 📁 Struktur Folder
 
 ```
-crud-siswa/
+latihanuk/
 │
 ├── koneksi.php
 ├── index.php
@@ -33,7 +33,7 @@ crud-siswa/
 2. Pindahkan ke folder `htdocs`
 3. Jalankan XAMPP (Apache & MySQL)
 4. Import database `siswa.sql` ke phpMyAdmin
-5. Buka di browser: `http://localhost/crud-siswa`
+5. Buka di browser: `http://localhost/latihanuk`
 
 ## 🧾 Database
 
