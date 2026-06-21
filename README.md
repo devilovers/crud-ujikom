@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  A simple CRUD web application built with PHP and MySQL for managing student data.
+  A simple student management application built with PHP and MySQL.
 </p>
 
 <p align="center">
@@ -16,9 +16,9 @@
 
 ## ✨ About Project
 
-This project is a simple student management application created as part of my journey in learning PHP and MySQL.
+This project is a simple CRUD application created as part of my journey in learning PHP and MySQL for web development.
 
-The application implements CRUD (Create, Read, Update, Delete) operations to manage student data through a simple and user-friendly web interface.
+The application allows users to manage student data by performing basic Create, Read, Update, and Delete (CRUD) operations through a simple and user-friendly interface.
 
 ---
 
@@ -28,7 +28,7 @@ The application implements CRUD (Create, Read, Update, Delete) operations to man
 * ✏️ Edit student data
 * 🗑️ Delete student data
 * 📋 Display student data
-* 💾 Store data using MySQL database
+* 💾 MySQL database integration
 
 ---
 
@@ -51,45 +51,6 @@ student-hub/
 ├── index.php
 ├── siswa.sql
 └── README.md
-```
-
----
-
-## ⚙️ How to Run
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/devilovers/student-hub.git
-```
-
-2. Move the project into the `htdocs` folder.
-
-3. Start Apache and MySQL from XAMPP.
-
-4. Import `siswa.sql` into phpMyAdmin.
-
-5. Open your browser and visit:
-
-```text
-http://localhost/student-hub
-```
-
----
-
-## 🧾 Database
-
-```sql
-CREATE DATABASE sekolah;
-
-USE sekolah;
-
-CREATE TABLE siswa (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nama VARCHAR(100),
-    kelas VARCHAR(50),
-    alamat TEXT
-);
 ```
 
 ---
