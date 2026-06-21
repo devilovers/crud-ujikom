@@ -1,25 +1,51 @@
-# CRUD Siswa - PHP & MySQL
+<h1 align="center">
+  🎓 Student Hub
+</h1>
 
-Project ini adalah aplikasi CRUD sederhana untuk mengelola data siswa.
-Dibuat menggunakan PHP Native dan MySQL untuk keperluan Uji Kompetensi.
+<p align="center">
+  A simple CRUD web application built with PHP and MySQL for managing student data.
+</p>
 
-## ✨ Fitur
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-8-blue?style=for-the-badge&logo=php">
+  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
 
-* Tambah data siswa
-* Edit data siswa
-* Hapus data siswa
-* Tampilkan data siswa
+---
 
-## 🛠️ Teknologi
+## ✨ About Project
 
-* PHP
+This project is a simple student management application created as part of my journey in learning PHP and MySQL.
+
+The application implements CRUD (Create, Read, Update, Delete) operations to manage student data through a simple and user-friendly web interface.
+
+---
+
+## 🚀 Features
+
+* ➕ Add student data
+* ✏️ Edit student data
+* 🗑️ Delete student data
+* 📋 Display student data
+* 💾 Store data using MySQL database
+
+---
+
+## 🛠️ Built With
+
+* PHP Native
 * MySQL
-* HTML & CSS
+* HTML5
+* CSS3
+* XAMPP
 
-## 📁 Struktur Folder
+---
 
-```
-latihanuk/
+## 📂 Project Structure
+
+```bash
+student-hub/
 │
 ├── koneksi.php
 ├── index.php
@@ -27,13 +53,29 @@ latihanuk/
 └── README.md
 ```
 
-## ⚙️ Cara Menjalankan
+---
 
-1. Clone repository ini
-2. Pindahkan ke folder `htdocs`
-3. Jalankan XAMPP (Apache & MySQL)
-4. Import database `siswa.sql` ke phpMyAdmin
-5. Buka di browser: `http://localhost/latihanuk`
+## ⚙️ How to Run
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/devilovers/student-hub.git
+```
+
+2. Move the project into the `htdocs` folder.
+
+3. Start Apache and MySQL from XAMPP.
+
+4. Import `siswa.sql` into phpMyAdmin.
+
+5. Open your browser and visit:
+
+```text
+http://localhost/student-hub
+```
+
+---
 
 ## 🧾 Database
 
@@ -49,3 +91,26 @@ CREATE TABLE siswa (
     alamat TEXT
 );
 ```
+
+---
+
+## 🎯 Learning Goals
+
+* Understanding CRUD operations in PHP
+* Learning database connectivity with MySQL
+* Practicing form handling and data management
+* Improving web development fundamentals
+
+---
+
+## 👩🏻‍💻 Author
+
+**Nur Islami Sabila**
+
+Frontend Developer & Informatics Student Candidate from Indonesia 🇮🇩
+
+> "Learning by building, growing by creating."
+
+---
+
+⭐ If you like this project, don't forget to give it a star.
