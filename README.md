@@ -1,77 +1,59 @@
-<h1 align="center">
-  🎓 Student Hub
-</h1>
+<div align="center">
 
-<p align="center">
-  A simple student management application built with PHP and MySQL.
+# Student Hub
+
+A simple web-based student management application built with **PHP** and **MySQL**, featuring CRUD functionality and a clean interface for managing student records.
+
+<p>
+  <img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/Status-Completed-00C853?style=for-the-badge">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-8-blue?style=for-the-badge&logo=php">
-  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</div>
+
+---
+
+## Overview
+
+This project was developed to explore the fundamentals of web application development using PHP and MySQL. The application focuses on implementing CRUD (Create, Read, Update, Delete) operations and basic database integration through a simple and user-friendly interface.
+
+---
+
+## Features
+
+* Add new student records
+* Edit existing student data
+* Delete student records
+* Display and manage student information
+* MySQL database integration
+* Simple and intuitive user interface
+
+---
+
+## Technologies
+
+| Technology | Description                            |
+| ---------- | -------------------------------------- |
+| PHP Native | Core server-side programming language  |
+| MySQL      | Relational database management system  |
+| HTML5      | Structure and content of the web pages |
+| CSS3       | Styling and user interface design      |
+| XAMPP      | Local development environment          |
+
+---
+
+## Author
+
+<p>
+<strong>Nur Islami Sabila</strong><br>
+Informatics Engineering Student from Indonesia.
 </p>
 
----
+<blockquote>
+Learning by building, growing by creating.
+</blockquote>
 
-## ✨ About Project
-
-This project is a simple CRUD application created as part of my journey in learning PHP and MySQL for web development.
-
-The application allows users to manage student data by performing basic Create, Read, Update, and Delete (CRUD) operations through a simple and user-friendly interface.
-
----
-
-## 🚀 Features
-
-* ➕ Add student data
-* ✏️ Edit student data
-* 🗑️ Delete student data
-* 📋 Display student data
-* 💾 MySQL database integration
-
----
-
-## 🛠️ Built With
-
-* PHP Native
-* MySQL
-* HTML5
-* CSS3
-* XAMPP
-
----
-
-## 📂 Project Structure
-
-```bash
-student-hub/
-│
-├── koneksi.php
-├── index.php
-├── siswa.sql
-└── README.md
-```
-
----
-
-## 🎯 Learning Goals
-
-* Understanding CRUD operations in PHP
-* Learning database connectivity with MySQL
-* Practicing form handling and data management
-* Improving web development fundamentals
-
----
-
-## 👩🏻‍💻 Author
-
-**Nur Islami Sabila**
-
-Frontend Developer & Informatics Student Candidate from Indonesia 🇮🇩
-
-> "Learning by building, growing by creating."
-
----
-
-⭐ If you like this project, don't forget to give it a star.
+<p align="left">
+If you found this project helpful, consider giving it a ⭐ to support the repository.
+</p>
